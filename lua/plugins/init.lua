@@ -60,4 +60,5 @@ use({ 'rose-pine/neovim', as = 'rose-pine' ,config = "vim.cmd('colorscheme rose-
 use { 'kkharji/lspsaga.nvim', branch = 'nvim6.0' or 'nvim51' } -- for specific version
 use 'terrortylor/nvim-comment'
 use 'tpope/vim-fugitive'
+use 'mbbill/undotree'
 end)
