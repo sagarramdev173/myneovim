@@ -12,21 +12,22 @@ end
 
 local mappings = {
   q = {":q<cr>","Quit"},
-  qq = {":qa<cr>","Quit all"},
-  Q = {":wqa<cr>","Save & Quit all"},
+  Q = {":qa<cr>","Quit all"},
   w = {":w<cr>","Save"},
   s = {":split<cr>","SPLIT"},
   vs = {":vs<cr>","Vertical SPLIT"},
   x = {":bdelete<cr>","Close"},
   E = {":e ~/.config/nvim/init.lua<cr>","Edit config"},
-  f = {":Telescope find_files<cr>","Telescope Find files"},
-  gl = {":Telescope live_grep<cr>","Telescope Live grep files"},
-  gc = {":Telescope git_commits<cr>","Telescope git commit files"},
-  gs = {":Telescope git_status<cr>","Telescope git status"},
+  W = {":e ~/.config/nvim/lua/whichkeyplugin-config/init.lua<cr>","whichkeyplugin-config"},
   t = {
     t = { ":ToggleTerm<cr>", "Split Below" },
-    f = { toggle_float, "Floating Terminal" },
-    l = { toggle_lazygit, "LazyGit" }
+    b= { toggle_float, "Floating Terminal" },
+    l = { toggle_lazygit, "LazyGit" },
+   f = {":Telescope find_files<cr>","Telescope Find files"},
+   g = {":Telescope live_grep<cr>","Telescope Live grep files"},
+   c = {":Telescope git_commits<cr>","Telescope git commit files"},
+   s = {":Telescope git_status<cr>","Telescope git status"},
+   m = {":Telescope man_pages<cr>","Telescope man pages"},
   },
   l = {
     name = "LSP",

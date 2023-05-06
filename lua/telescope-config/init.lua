@@ -11,6 +11,9 @@ require('telescope').setup {
     find_command = {
       'rg', '--no-heading', '--with-filename', '--line-number', '--column', '--smart-case'
     },
+     find_files = {
+      theme = "dropdown"
+    },
     prompt_prefix = " ",
     selection_caret = " ",
     entry_prefix = "  ",
